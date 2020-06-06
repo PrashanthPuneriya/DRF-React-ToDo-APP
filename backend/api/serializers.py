@@ -7,6 +7,5 @@ class ToDoSerializer(serializers.ModelSerializer):
         fields = (
             'id',
             'name',
-            'due_date',
         )
         
