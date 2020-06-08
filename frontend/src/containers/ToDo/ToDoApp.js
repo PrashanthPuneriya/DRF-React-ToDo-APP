@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 
 import Header from "../Header/Header";
-import Tasks from "../components/Tasks";
+import Tasks from "../../components/Tasks/Tasks";
 
 class ToDoApp extends React.Component {
   state = {

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
-import ToDoCRUD from '../components/ToDoApp';
+import ToDoApp from '../containers/ToDo/ToDoApp';
 
 class App extends Component {
 
@@ -9,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>ToDo APP</h1>
-        <ToDoCRUD/>
+        <ToDoApp/>
       </div>
     );
   }
