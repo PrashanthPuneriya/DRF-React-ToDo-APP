@@ -1,6 +1,6 @@
 appdirs==1.4.3
 dj-rest-auth==1.0.7
-Django==3.0.7
+Django==3.1.9
 django-allauth==0.42.0
 django-cors-headers==3.3.0
 djangorestframework==3.11.0
